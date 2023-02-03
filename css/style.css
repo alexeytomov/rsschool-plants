@@ -507,9 +507,57 @@ html{
 /* Professional style start */
 
 .professional{
+    display: flex;
+    flex-wrap: wrap;
     height: 666px;
-    width: 1440;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
+
+.professional__wrapper{
+    width: 1222px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.professional__text{
+    width: 605px;
+    height: 350px;
+}
+
+.professional__text-title{
+    width: 463px;
+    margin-bottom: 40px;
+}
+
+.professional__text-title h2{
+    color:#499A18;
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+.professional__text-title span{
+    color:#E06733
+}
+
+.professional__text-desc{
+    width: 515px;
+    height: 208px;
+}
+
+.professional__text-desc span{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
 
 
 
