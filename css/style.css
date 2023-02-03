@@ -414,29 +414,25 @@ html{
 }
 
 .header__item{
-    margin-right: 82px;
-    font-family: 'Inika';
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 50px;
+    margin-right: 80px;
 }
 
 .header__item:last-child {
     margin-right: 0;
 }
 
-.header__item:first-child{
-    font-weight: 700;
-    color: #E06733;
-}
-
 .header__link {
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
     text-decoration: none;
     color: #010201;
 }
 
-.header__link.home {
+.header__link:hover, .header__link:focus, .header__link:active{
     color: #E06733;
+    font-weight: 700;
 }
 
 /* Header style end */
@@ -478,26 +474,46 @@ html{
 }
 
 .more__text-desc{
+    max-width: 525px;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 20px;
     line-height: 35px;
     color: #636060;
     margin-bottom: 48px;
+    padding-right: 80px;
 }
 
-.more__text-buttom{
+.more__text-button-wrap{
     display: flex;
     flex-wrap: wrap;
     width: 158px;
     height: 44px;
     border: 2px solid #E06733;
     border-radius: 10px;
-    align-items: center;
+    align-content: center;
     justify-content: center;
+}
+
+.more__text-button{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
 /* More style end */
 
+
+/* Professional style start */
+
+.professional{
+    height: 666px;
+    width: 1440;
+}
+
+
+
+/* Professional style end */
 /* Fonts */
 
 /* inika-regular - latin */
